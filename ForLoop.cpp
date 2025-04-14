@@ -31,5 +31,25 @@ int main()
         cout << i << endl;
     }
 
+    // Break for or while
+    for (int i = 0; i < 10; i++)
+    {
+        if (i == 4)
+        {
+            break;
+        }
+        cout << i << endl;
+    }
+
+    // Continue for or while
+    for (int i = 0; i < 10; i++)
+    {
+        if (i == 4)
+        {
+            continue;
+        }
+        cout << i << endl;
+    }
+
     return 0;
 }
